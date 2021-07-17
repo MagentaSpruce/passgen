@@ -1,6 +1,6 @@
 # Command line password generator
 
-This project utilized NodeJS to create a command line password generator which outputs a randomized password to certain specified settings. PAsswords can also be copied to the clipboard and saved into a .txt file.
+This project utilized NodeJS to create a command line password generator which outputs a randomized password to certain specified settings. Passwords can also be copied to the clipboard and saved into a .txt file.
 
 A general overview of the Javascript code used in the NodeJS app is given below.
 
@@ -52,7 +52,7 @@ const createPassword = (length = 8, hasNumbers = true, hasSymbols = true) => {
 };
 ```
 
-Now create the generatePassword function.
+Now create the generatePassword function. 
 ```JavaScript
 const generatePassword = (length, chars) => {
   let password = "";
